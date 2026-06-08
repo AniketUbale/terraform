@@ -34,7 +34,7 @@ variable "vpc_cidr" {
   
 }
 variable "env" {
-    default = "prod"
+    default = "dev"
     type = string
   
 }
