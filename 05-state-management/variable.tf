@@ -1,6 +1,6 @@
 variable "env" {
     type = string
-    default = "prod"
+    default = "dev"
   
 }
 variable "key_pair" {
