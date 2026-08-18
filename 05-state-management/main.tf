@@ -40,7 +40,7 @@ resource "aws_instance" "ec2" {
     instance_type = each.value
     ami = var.ami
     key_name = aws_key_pair.ec2-key.key_name
-    vpc_security_group_ids = [ aws_security_group.ec2-sg ]
+    vpc_security_group_ids = [ aws_security_group.ec2-sg.id ]
     root_block_device {
       volume_size = var.volume_size
       volume_type = var.volume_type
