@@ -1,0 +1,15 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Terraform lock file - optional
+# Keep this if you want to commit provider versions
+# **/.terraform.lock.hcl
+
+# SSH private keys
+**/terra-ec2-key
+**/*.pem
+**/*.pub
